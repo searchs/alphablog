@@ -1,8 +1,17 @@
-$navbar-default-bg: #CA1500;
-
+$navbar-default-bg: black;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.navbar-default {
+    background: #3399ff;
+}
+
+.navbar-default a {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+}
 
 #logo {
     float: left;
@@ -10,4 +19,43 @@ $navbar-default-bg: #CA1500;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: -1px;
+    color: #ffffff;
+    background: red;
+    padding: 10px 10px;
+    border-radius: 3px;
+    
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.center {
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: asset-url('city_1.jpeg');
+    background-size: cover;
+    height: 550px;
+}
+
+.jumbotron h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600px;
+    color: #ffffff;
+}
+
+.btn-xlarge {
+    font-size: 1.7em;
+    background: black;
+}
+
+.footer {
+    min-height: 50px;
+    margin-top: 45px;
+    border-top: 1px solid #eea;
+    color: #646464;
 }
